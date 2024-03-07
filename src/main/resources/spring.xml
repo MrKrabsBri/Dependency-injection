@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+    <!-- bean definitions here -->
+
+<!--   Getters and setters injection in XML -->
+<!--    <bean id="doctor" class = "krabsProject2024.Doctor">-->
+<!--        &lt;!&ndash; setter injection&ndash;&gt;-->
+<!--        <property name="qualification" value="LSMU"></property>-->
+<!--        <property name="nurse" ref="nurse"></property>-->
+<!--       &lt;!&ndash;  Constructor injection &ndash;&gt;-->
+<!--        <constructor-arg value="LSMU"></constructor-arg>-->
+<!--    </bean>-->
+<!--    <bean id="nurse" class = "krabsProject2024.Nurse"></bean>-->
+
+    <context:component-scan base-package="krabsProject2024"></context:component-scan>
+
+</beans>
